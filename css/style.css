@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*************************
+ banner part start
+ ************************* */
+#banner_part {
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.794);
+    margin: 100px 100px;
+    border-radius: 25px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_text h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.banner_text p {
+    color: rgba(255, 255, 255, 0.993);
+    padding-bottom: 30px;
+    padding-right: 300px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.banner_text a {
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.949);
+    background-color: tomato;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.banner_text a:hover {
+    background-color: #2075e4;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+    top: -50px;
+    right: -70px;
+}
+
+.banner_image img {
+    height: 100%;
+    padding-top: 20px;
+}
+
+.banner_image img:hover {
+    transform: skew(30deg);
+    transition: 3s;
+
+}
+
+.banner_text a,
+i {
+    padding-left: 10px;
+}
+
+/***************
+ banner section end 
+ ************************/
+
+
+
+
+/********************
+ winning part start 
+ ***************************/
+.winning_part {
+    display: flex;
+
+}
+
+.match_schedule {
+    margin-right: 30px;
+    margin-left: 100px;
+    width: ;
+}
+
+.match_schedule button {
+    display: block;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    background-color: white;
+    
+}
+
+.match_schedule button,
+a {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.all_group a {
+    padding-right: 65px;
+
+}
+
+.blog {
+    background-color: rgba(255, 0, 0, 0.733) !important;
+
+}
+
+.blog a {
+    padding-right: 90px;
+
+}
+
+.winner_image_text h1 a {
+    padding: 3px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+    opacity: .7;
+
+}
+
+.winner_image_text {
+    margin-left: 20px;
+}
+
+.winner_image_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: .8;
+}
+
+.time {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.time_img img {
+    text-align: center;
+}
+
+.time_img span {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.chattiong_img span {
+    padding-left: 5px;
+}
+
+.secoond_part {
+    border: 1px solid rgba(128, 128, 128, 0.231);
+    border-radius: 12px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+
+}
+
+.total_element {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.all_view {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.all_view a {
+    padding: 10px 25px;
+    background-color: tomato;
+    color: white;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+   visibility: hidden;
+
+}
+
+/***************
+ winning part end 
+ *********************/
+
+
+
+
+/************
+ footer part start
+ **********************/
+#Goal {
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.808);
+    margin-top: 80px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+hr {
+    background-color: gray;
+    opacity: .3;
+
+}
+
+.footer_link {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.footer_link li,
+a {
+    color: rgba(255, 255, 255, 0.561);
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 20px;
+}
+
+.footer_icon {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.footer_icon a {
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(233, 138, 14);
+    padding-right: 20px;
+
+}
+
+/************** footer part end************ */
+
+
+
+
+ /*******************
+           medeia query
+ *****************************/
+@media only screen and (max-width: 992px){
+    .all_view a {
+        padding: 10px 25px;
+        background-color: tomato;
+        color: white;
+        border-radius: 7px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+       visibility: visible;
+    }
+    .total_element {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .winning_part {
+        display: block;
+
+    }
+    .winning_part .total_element{
+        margin-left: 30px;
+
+    }
+    .match_schedule button {
+        display: inline;
+        margin-bottom: 50px;
+        margin-left: 65px;
+        
+    }
+
+    .banner_text p {
+        color: rgba(255, 255, 255, 0.993);
+        padding-bottom: 58px;
+        padding-right: 5px;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+    }
+
+    .banner_text a {
+        padding: 10px 20px;
+        color: rgba(255, 255, 255, 0.949);
+        background-color: tomato;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 5px;
+        margin-bottom: 100px;
+        position: absolute;
+    
+    }
+
+    #banner_part {
+        padding: 60px 40px;
+        background-color: rgba(0, 0, 0, 0.794);
+        margin: 100px 100px;
+        border-radius: 25px;
+    }
+
+    .banner_image img {
+        height: 100%;
+        padding-top: 60px;
+        width: 378px;
+    }
+
+    .footer_link li,
+    a {
+        color: rgba(255, 255, 255, 0.561);
+        font-family: 'Montserrat', sans-serif;
+        padding:8px 8px;
+    }
+
+}
+
+
+@media only screen and (max-width:668px) {
+
+  
+    #banner_part {
+        padding: 60px 69px;
+        background-color: rgba(0, 0, 0, 0.794);
+        margin: 35px 22px;
+        border-radius: 25px;
+    }
+    .banner_image img {
+        padding-left: 30px;
+    }
+    .banner_text a:hover{
+        background-color: #2075e4;
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        padding: 10px 20px;
+        position: relative;
+        top: -50px;
+        right: -70px;
+    }
+    .total_element {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .match_schedule {
+        margin-right: 85px;
+        margin-left: 140px;
+
+    }
+    .match_schedule button {
+      
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .match_schedule button {
+        display: inline;
+        margin-bottom: 50px;
+        margin-left: 94px;
+    }
+    .all_view a {
+        padding: 10px 25px;
+        background-color: tomato;
+        color: white;
+        border-radius: 7px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+       visibility: hidden;
+    }
+  
+    .footer_link li,
+    a {
+        color: rgba(255, 255, 255, 0.761);
+        font-family: 'Montserrat', sans-serif;
+        padding:8px 8px;
+        font-size: 8px;
+    }
+ 
+}
+
+
+
+

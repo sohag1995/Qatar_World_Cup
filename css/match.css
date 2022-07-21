@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*************************
+ banner part start
+ ************************* */
+#banner_part{
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.794);
+    margin: 100px 100px;
+    border-radius: 25px;
+      
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_text h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.banner_text p {
+	color: rgba(255, 255, 255, 0.993);
+	padding-bottom: 30px;
+	padding-right: 300px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.banner_text a{
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.949);
+    background-color:tomato;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    
+}
+
+.banner_image img{
+    height: 100%;
+    padding-top: 20px;
+}
+
+.banner_text a,i{
+    padding-left: 10px;
+}
+
+/***************
+ banner section end 
+ ************************/
+
+
+
+
+ /********************
+ winning part start 
+ ***************************/
+.match_schedule{
+    margin-left: 50px;
+    margin-right: 70px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.match_schedule button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 7px;
+  border: none;
+}
+.match_schedule button,a{
+ color: black;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 1em;
+  
+}
+.match_schedule .all_group a{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.match_schedule .blog a{
+  padding-left: 40px;
+  padding-right: 40px;
+ 
+}
+.match_schedule .upcoming_match{
+    background-color: brown;
+}
+
+
+
+#live_match{
+    display: flex;
+}
+.match_time span{
+    padding: 0 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+}
+
+.match_time{
+  padding: 30px 20px;
+  border: 1px solid rgba(128, 128, 128, 0.156);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ger_fran{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.verses{
+    display: flex;
+   
+}
+.verses h3{
+   padding: 0 10px;
+   
+}
+/***************
+ winning part end 
+ *********************/
+
+
+
+ /************
+ footer part start
+ **********************/
+
+#Goal{
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.808);
+    margin-top: 80px;
+}
+
+.goal h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: white;
+
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+hr{
+    background-color: gray;
+    opacity: .3;
+    
+}
+.footer_link{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.footer_link a{
+   color: rgba(255, 255, 255, 0.561);
+   padding-left: 25px;
+   font-family: 'Roboto', sans-serif;
+    
+}
+.footer_icon{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.footer_icon a{
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(233, 138, 14);
+    padding-right: 20px;
+
+}
+/************** footer part end************ */
