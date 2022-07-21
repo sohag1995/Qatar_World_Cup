@@ -47,12 +47,27 @@ li{
     border-radius: 5px;
     
 }
+.banner_text a:hover {
+    background-color: #2075e4;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+    top: -50px;
+    right: -70px;
+}
 
 .banner_image img{
     height: 100%;
     padding-top: 20px;
 }
+.banner_image img:hover {
+    transform: skew(30deg);
+    transition: 3s;
 
+}
 .banner_text a,i{
     padding-left: 10px;
 }

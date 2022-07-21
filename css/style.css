@@ -99,7 +99,6 @@ i {
 .match_schedule {
     margin-right: 30px;
     margin-left: 100px;
-    width: ;
 }
 
 .match_schedule button {
@@ -408,6 +407,83 @@ a {
  
 }
 
+@media only screen and (max-width:660px){
+    .banner {
+        display: block;
+        justify-content: space-around;
+    }
+    #banner_part {
+        padding: 0px 70px;
+        background-color: rgba(0, 0, 0, 0.794);
+        margin: 35px 22px;
+        border-radius: 25px;
+    }
+.banner{
+    margin-bottom: 50px;
+}
 
+.banner_text{
+    margin: 0 auto;
+    text-align: center;
+}
+.banner_text h1{
+padding-top: 40px;
+padding-bottom: 20px;
+
+}
+.banner_text p{
+   white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.banner_text a {
+	margin-left: -50px;
+    font-size: 1em;
+    
+}
+.banner_image img{
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#Goal {
+	padding: 35px;
+	background-color: rgba(0, 0, 0, 0.808);
+	margin-top: -33px;
+}
+
+
+.footer_link{
+ margin: 0 50px;
+ display: block;
+text-align: center;
+
+}
+.footer_link li,a{
+    font-size: 1em;
+    padding-top: 30px;
+
+}
+.match_schedule button{
+    display: inline-block;
+    text-align: center !important;
+}
+.match_schedule .all_group,a{
+    text-align: center !important;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
